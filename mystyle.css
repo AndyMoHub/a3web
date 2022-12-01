@@ -1,13 +1,53 @@
+
+
+
 /*Navigation Bar CSS
 
 /*Make the nav bar appear at the very edge of the page so there are no awk spaces*/
-body {margin:0;}
+body {
+padding: 16px;
+margin-top: 25px;
 
-
-
-
+}
 
 /*Navigation Bar CSS
+
+/*Nav bar style*/ 
+.NavBar {
+  background-color: #ffffff; /*Sets background color*/
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  
+}
+
+.NavBar a{
+
+  display: block; /*displays the element as a block element*/
+  color: rgba(186, 170, 141, 0.841); /*changes the color of font*/
+  padding: 15px 30px; /*increase the padding*/
+  float: left; /* make the nav bar appear on the left-hand side*/
+  font-size: 17px; /*changes the font size of the NAV bar text*/
+  text-decoration: none; /* remove the underline over the NAV bar text */
+  font-family: "Montserrat", sans-serif /*Change font*/
+}
+
+/* Creates a hover effect on the navigation bar when the user hovers over the navigation elements*/
+.NavBar a:hover {
+  background-color: rgb(217, 187, 113);
+  color: rgba(12, 12, 11, 0.673);
+}
+
+
+@media screen and (max-width: 800px) {
+  .NavBar a:not(:first-child) {display: none;}
+  .NavBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
 
 
 /* Website Layout */
