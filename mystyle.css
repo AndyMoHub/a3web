@@ -38,6 +38,14 @@ margin-top: 25px;
   color: rgba(12, 12, 11, 0.673);
 }
 
+.NavBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.NavBar .icon {
+  display: none;
+}
 
 @media screen and (max-width: 800px) {
   .NavBar a:not(:first-child) {display: none;}
@@ -47,6 +55,19 @@ margin-top: 25px;
   }
 }
 
+@media screen and (max-width: 800px) {
+  .NavBar.responsive {position: relative;}
+  .NavBar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .NavBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 
 
