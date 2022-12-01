@@ -4,18 +4,31 @@
 <head>
     <title>Website Title </title>  <!-- Title of website -->
     <link rel="stylesheet" href="mystyle.css"> <!-- link to CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Navigation Bar -->
-    <div class="NavBar">
+    <div class="NavBar" id="myTopnav">
         <a href="MeetTeam.html">Meet the Team</a>
-        <a href="#Services.html">Services</a>   
+        <a href="Services.html">Services</a>   
         <a href="PracticeArea.html">Practice Area</a>
         <a href="Contact.html">Contact Us</a> 
         <a href="index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <!-- Calls javascript function -->
+            <i class="fa fa-bars"></i>
+          </a>
       
     </div>
 
-
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "NavBar") { // If the class name starts with NavBar, then the classname of variable x is .NavBar.responsive 
+            x.className += " responsive"; // if it does not then x is labelled NavBar as default.
+          } else {
+            x.className = "NavBar";
+          }
+        }
+        </script>
 
     <!-- Website Layout -->
     <h1>Heading 1</h1>
