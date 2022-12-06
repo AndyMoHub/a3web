@@ -1,0 +1,16 @@
+torono, oshawa, newmarkey, burlington
+
+<img class = "API" src="https://maps.googleapis.com/maps/api/staticmap?center=Oshawa,ON&zoom=13&size=600x600&maptype=roadmap&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" alt="Oshawa, ON">
+
+<img class = "API" src="https://maps.googleapis.com/maps/api/staticmap?center=Toronto,ON&zoom=13&size=600x600&maptype=roadmap&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" alt="Toronto, ON">
+
+<img class = "API" srcno="https://maps.googleapis.com/maps/api/staticmap?center=Newmarket,ON&zoom=13&size=600x600&maptype=roadmap&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" alt="Newmarket, ON">
+
+<img class = "API" srcno="https://maps.googleapis.com/maps/api/staticmap?center=Burlington,ON&zoom=13&size=600x600&maptype=roadmap&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE" alt="Burlington, ON">
+
+.API {
+  color:darkred;
+  font-family: Papyrus;
+  width: 600px;
+  height: 600px;
+  }
