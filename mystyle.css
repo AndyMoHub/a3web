@@ -110,18 +110,18 @@ a{
 
 /*-------------------------------------------------------------------------------------*/
   /*Main Page CSS source: https://www.youtube.com/watch?v=ZdJSHEczi_0*/
-
+/* https://www.youtube.com/watch?v=ZYV6dYtz4HA create responsive texts*/
   a {
     text-decoration: none;
   }
 
 section {
+  background-repeat: no-repeat;
   width: 100vw;
   height:100vh;
   background-image: url('images/Group.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   justify-content: center; 
@@ -148,25 +148,18 @@ section {
 
 .section-content h2{
   font-size: 4vmin;
-
+  margin-top: 50px;
+  margin-bottom: 30px;
 
 }
 
-.button {
-  width: 200px;
-  border: 0;
+.consult{
+
   padding: 8px 12px;
-  outline: none;
-  background: #e85a4f;
-  border-radius: 6px;
-  color:#ffffff;
-  cursor:pointer;
-}
-
-/* .transparent {
-  background-color: #66655f;
-  margin: 0;
-  padding: 20px; */
+  background:#e85a4f;
+  border-radius: 20px;
+  color:rgb(251, 251, 251);
+  
 
 }
 
