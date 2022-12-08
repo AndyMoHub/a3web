@@ -165,21 +165,67 @@ section {
 
 
 /*----------------------------------------------------------------------------*/
-/*meet the team CSS*/
+/*meet the team and location CSS*/
 
-  .meettheteamheader{ 
-    font-weight: bolder;
-    font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-size: 200%;
-  }
+.meettheteamheader{ 
+  font-weight: bolder;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 120%;
+}
 
-  .meettheteamparagraph{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-size: 150%;
+.meettheteamheader2{ 
+  font-weight: bolder;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 100%;
+}
+
+.meettheteamtxt {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 100%;
+  text-indent: 4.0%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (min-width: 600px) {
+  .col1 {
+    flex: 50%;
+    padding: 5px;
   }
+}
+
+@media screen and (min-width: 600px) {
+  .col2 {
+    flex: 50%;
+    padding: 5px;
+  } 
+}
+
+@media screen and (min-width: 600px) {
+  .row1 {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .row2 {
+    display: flex;
+  }
+}
+
+/*Image Sizing*/
+img {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  width: 100%;
+}
+  /*----------------------------------------------------------------------------*/
+/*Area of Practice CSS*/
 
   .practiceareaheader{
     font-weight: bolder;
@@ -194,6 +240,8 @@ section {
     text-align: left;
     font-size: 150%;
   }
+  /*----------------------------------------------------------------------------*/
+/*Reviews CSS*/
 
   .reviewsheader{
     font-weight: bolder;
@@ -212,6 +260,8 @@ section {
   body{
     font-family: 'Work Sans', sans-serif;
   }
+  /*----------------------------------------------------------------------------*/
+/*FAQ CSS*/
 
   .faq-heading{
       border-bottom: #777;
@@ -227,23 +277,3 @@ section {
     width: 60%;
     margin: auto;
   }
-
-  .img{
-    max-width: 50%;
-    height: auto;
-    width: 100;
-    height: 133;
-  }
-
-  .API {
-  color:darkred;
-  font-family: Papyrus;
-  width: 600px;
-  height: 600px;
-  text-align: right;
-  }
-
-  .body {
-    background-image: url("Images/Group.jpg");
-    background-color: #cccccc;
-   }
