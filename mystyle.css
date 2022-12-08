@@ -56,9 +56,9 @@ a{
 /*create hover effect for the navigation links*/
 
 .nav-link:hover{
-  background-color: #d8c3a5;
-  color: #8E8D8A;
-  padding: 22px 20px;
+  background-color: #c4b99cfb;
+  color: #ffffff;
+  padding: 20px 20px;
 }
 
 .hamburger{
