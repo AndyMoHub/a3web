@@ -488,15 +488,17 @@ margin-right: 8px;
   }
 }
 
+
 /* Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp   */
   .landscape{
     background-image: url('Images/Landscape.jpg');
   }
    
+
 /* Ends is the background image (page1)*/
 /*below defines the colours, alignment and the fint size of the headings ( & ID)*/
 
-
+/*CSS Review Page - Victoria*/
 .reviewparagraph {
   background-color: rgba (00004)
 }
@@ -511,6 +513,7 @@ margin-right: 8px;
   background-color: #998e683b;
 }
 
+/*About Us CSS - Victoria */  
 .whoarewe{
   font-size: 16px;
   margin-top: 10px;
