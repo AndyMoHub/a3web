@@ -28,6 +28,7 @@ a{
   justify-content: space-between;
   align-items: center;
   padding: 0 25px;
+  border-bottom: solid 10px #d8cfb2;
 }
 
 .nav-elem {
@@ -74,7 +75,7 @@ a{
 }
 
 
-@media(max-width:1360px){
+@media(max-width:1380px){
   .hamburger{
     display: block; /*displays the hamburger and the given max-width*/
   }
@@ -344,7 +345,8 @@ margin-right: 8px;
   color: rgb(49, 45, 45);
   font-weight: bold;
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .section-header p {
