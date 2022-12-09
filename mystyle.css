@@ -170,7 +170,7 @@ a{
 
 /*----------------------------------------------------------------------------*/
 /*meet the team and location CSS*/
-
+/*Sets the wording format and style for the meet the team headers and paragraph - Kris*/
 .meettheteamheader{ 
   font-weight: bolder;
   font-style: normal;
@@ -194,7 +194,7 @@ a{
   text-indent: 4.0%;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other - Kris */
 
 @media screen and (min-width: 600px) {
   .col1 {
@@ -230,7 +230,7 @@ img {
 }
   /*----------------------------------------------------------------------------*/
 /*Area of Practice CSS*/
-
+/*Sets the wording format and style for the area of practice headers and paragraph - Kris*/
   .practiceareaheader{
     font-weight: bolder;
     font-style: normal;
@@ -246,7 +246,7 @@ img {
   }
   /*----------------------------------------------------------------------------*/
 /*Reviews CSS*/
-
+/*Sets the wording format and style for the reviews headers and paragraph - Kris*/
   .reviewsheader{
     font-weight: bolder;
     font-style: normal;
@@ -266,6 +266,7 @@ img {
   }
   /*----------------------------------------------------------------------------*/
 /*FAQ CSS*/
+/*Sets the wording format and style for the FAQ headers and paragraph - Kris*/
 
   .faq-heading{
       border-bottom: #777;
