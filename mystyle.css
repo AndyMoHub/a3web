@@ -117,7 +117,7 @@ a{
     text-decoration: none;
   }
 
-section {
+.home-section {
   background-repeat: no-repeat;
   width: 100vw;
   height:100vh;
@@ -523,3 +523,41 @@ margin-right: 8px;
   background-color: #86808063;
 }
 
+/*Services Section CSS - Alex */
+
+/*Centers the services blocks*/
+.service-section .row{
+  display:block;
+  display: border-box;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: rgb(90, 84, 73);
+}
+
+/*Style for the left most block*/
+.service-left{
+  background-color: #957355;
+  padding: 5% 5%;
+  color: white;
+}
+
+/*style for the middle block*/
+.service-middle {
+  background-color: rgb(50, 45, 45);
+  padding: 5% 5%;
+  color: white;
+}
+
+/*style for the right block*/
+.service-right{
+  background-color: rgb(49, 39, 39);
+  padding: 5% 5%;
+  color:white
+}
+
+/*style for the text "services we employ" by setting margins so the text dont appear stuck to the block and navigation bar*/
+.service-text{
+margin-top: 20px;;
+margin-bottom: 20px;
+}
