@@ -1,6 +1,8 @@
 
+
 /*--------------------------------------------------------------------------------------*/
 /*CSS for Navigation Bar*/
+
 * {
   padding:0;
   margin:0;
@@ -36,6 +38,7 @@ a{
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  
 }
 
 /*css for Torlex & Top*/
@@ -72,6 +75,7 @@ a{
   background-color: #777;
 }
 
+
 @media(max-width:1380px){
   .hamburger{
     display: block; /*displays the hamburger and the given max-width*/
@@ -105,6 +109,8 @@ a{
     left:0;
   }
 }
+
+
 /*-------------------------------------------------------------------------------------*/
   /*Main Page CSS source: https://www.youtube.com/watch?v=ZdJSHEczi_0*/
 /* https://www.youtube.com/watch?v=ZYV6dYtz4HA create responsive texts*/
@@ -161,6 +167,8 @@ a{
   
 
 }
+
+
 /*----------------------------------------------------------------------------*/
 /*meet the team and location CSS*/
 /*Sets the wording format and style for the meet the team headers and paragraph - Kris*/
@@ -187,7 +195,8 @@ a{
   text-indent: 4.0%;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other - Kris */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (min-width: 600px) {
   .col1 {
     flex: 50%;
@@ -218,12 +227,12 @@ a{
 img {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1px;
-  max-width: 100%;
-  width: 1000px;
+  width: 100%;
 }
   /*----------------------------------------------------------------------------*/
 /*Area of Practice CSS*/
 /*Sets the wording format and style for the area of practice headers and paragraph - Kris*/
+
   .practiceareaheader{
     font-weight: bolder;
     font-style: normal;
@@ -274,49 +283,39 @@ img {
     width: 60%;
     margin: auto;
   }
+
 /* /* Victoria FAQ CSS Blck text
 /* /*  */
-.webnots-notification-box {
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
-color: #000000;
-font-family: verdana, 'open sans', sans-serif;
-margin-bottom: 25px;
-position: relative; 
-box-shadow: 0px 1px 5px rgb(211, 187, 187);
-}
-.webnots-notification-box:before {
-font-family: FontAwesome;
-font-size: 21px;
-left: 14px;
-position: absolute;
-}
-.webnots-information {
-background-color: #cfc89b73;
-}
-.webnots-information:before {
-  font-family: FontAwesome;
-  font-size: 21px;
-  left: 14px;
-  position: absolute;
-}
-.webnots-question {
-background-color: #cfc89b73;
-}
-.webnots-question:before {
-content: "\f128";
-margin-left: 8px;
-}
-.webnots-tip {
-background-color: #cfc89b73;
-}
-.webnots-tip:before {
-content: "\f0eb";
-margin-left: 8px;
-margin-right: 8px; 
-}
-/*CSS for contactus page*/
+
+.faq-one {
+  background-color: #cfc89b73;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  }
+  
+  .faq-two {
+  background-color: #cfc89b73;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  }
+  
+  .faq-three {
+  background-color: #cfc89b73;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  }
+  
+
+
+/* CSS for contactus page*/
+
+ 
 .container {
   max-width: 1080px;
   margin-left: auto;
@@ -475,19 +474,22 @@ margin-right: 8px;
     width: 100%;
   }
 }
-
+/* Victoria CSS for review page*/
 /* Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp   */
   .landscape{
+    
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
     background-image: url('Images/Landscape.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
   }
    
-/* Ends is the background image (page1)*/
-/*below defines the colours, alignment and the fint size of the headings ( & ID)*/
 
-/*CSS Review Page - Victoria*/
-.reviewparagraph {
-  background-color: rgba (00004)
-}
 
 .reviewparagraph{
   font-size: 16px;
@@ -498,14 +500,45 @@ margin-right: 8px;
   background-color: #998e683b;
 }
 
-/*About Us CSS - Victoria */  
+
+/* Victoria CSS about page -*/
+
+@media (max-width: 901px) {
 .whoarewe{
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
   background-color: #86808063;
+}
+}
+
+@media (min-width: 991px) {
+.whatarewe{
+  background-color: #86808063;
+}
+}
+
+ @media screen and (min-width: 600px) {
+  .col5 {
+    flex: 50%;
+    font-size: 16px;
+    padding: 100px;
+    padding-right: 60px;
+    background-color: #86808088;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col6 {
+    flex: 50%;
+    font-size: 16px;
+    padding: 100px;
+  background-color: #86808088;
+}
+  } 
+
+
+@media screen and (min-width: 600px) {
+  .row5 {
+    display: flex;
+  }
 }
 
 /*Services Section CSS - Alex */
@@ -552,3 +585,4 @@ margin-bottom: 20px;
   max-width: 100%;
   width: 1000px;
     }
+
