@@ -571,7 +571,6 @@ img {
 /*Centers the services blocks*/
 .service-section .row{
   display:block;
-  display: border-box;
   width: 80%;
   margin: auto;
   text-align: center;
