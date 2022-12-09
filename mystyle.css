@@ -562,3 +562,8 @@ margin-right: 8px;
 margin-top: 20px;;
 margin-bottom: 20px;
 }
+
+/*Google Map API Styling - Alex*/
+.API {
+  max-width: 100%;
+    }
