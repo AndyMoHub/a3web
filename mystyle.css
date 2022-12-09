@@ -1,7 +1,6 @@
 
 /*--------------------------------------------------------------------------------------*/
 /*CSS for Navigation Bar*/
-
 * {
   padding:0;
   margin:0;
@@ -37,7 +36,6 @@ a{
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  
 }
 
 /*css for Torlex & Top*/
@@ -74,7 +72,6 @@ a{
   background-color: #777;
 }
 
-
 @media(max-width:1380px){
   .hamburger{
     display: block; /*displays the hamburger and the given max-width*/
@@ -108,8 +105,6 @@ a{
     left:0;
   }
 }
-
-
 /*-------------------------------------------------------------------------------------*/
   /*Main Page CSS source: https://www.youtube.com/watch?v=ZdJSHEczi_0*/
 /* https://www.youtube.com/watch?v=ZYV6dYtz4HA create responsive texts*/
@@ -166,8 +161,6 @@ a{
   
 
 }
-
-
 /*----------------------------------------------------------------------------*/
 /*meet the team and location CSS*/
 /*Sets the wording format and style for the meet the team headers and paragraph - Kris*/
@@ -195,7 +188,6 @@ a{
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other - Kris */
-
 @media screen and (min-width: 600px) {
   .col1 {
     flex: 50%;
@@ -226,7 +218,8 @@ a{
 img {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1px;
-  width: 100%;
+  max-width: 100%;
+  width: 1000px;
 }
   /*----------------------------------------------------------------------------*/
 /*Area of Practice CSS*/
@@ -267,7 +260,6 @@ img {
   /*----------------------------------------------------------------------------*/
 /*FAQ CSS*/
 /*Sets the wording format and style for the FAQ headers and paragraph - Kris*/
-
   .faq-heading{
       border-bottom: #777;
       text-align: left;
@@ -282,7 +274,6 @@ img {
     width: 60%;
     margin: auto;
   }
-
 /* /* Victoria FAQ CSS Blck text
 /* /*  */
 .webnots-notification-box {
@@ -325,11 +316,7 @@ content: "\f0eb";
 margin-left: 8px;
 margin-right: 8px; 
 }
-
-
 /*CSS for contactus page*/
-
- 
 .container {
   max-width: 1080px;
   margin-left: auto;
@@ -489,13 +476,11 @@ margin-right: 8px;
   }
 }
 
-
 /* Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp   */
   .landscape{
     background-image: url('Images/Landscape.jpg');
   }
    
-
 /* Ends is the background image (page1)*/
 /*below defines the colours, alignment and the fint size of the headings ( & ID)*/
 
@@ -503,7 +488,6 @@ margin-right: 8px;
 .reviewparagraph {
   background-color: rgba (00004)
 }
-
 
 .reviewparagraph{
   font-size: 16px;
@@ -566,4 +550,5 @@ margin-bottom: 20px;
 /*Google Map API Styling - Alex*/
 .API {
   max-width: 100%;
+  width: 1000px;
     }
